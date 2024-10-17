@@ -1,0 +1,32 @@
+{
+    "name": "conversador/conversador-php-sdk",
+    "description": "Pacote para fácil instalação e utilização da API do Conversador para envio de mensagens.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Conversador\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel",
+            "email": "20932346+memachado@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "dg/bypass-finals": "^1.8"
+    }
+}
