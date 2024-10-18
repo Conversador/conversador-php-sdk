@@ -51,8 +51,8 @@ class Conversador
                     ],
                     [
                         'name' => 'medias',
-                        'contents' => Utils::tryFopen('tests/assets/file.png', 'r'),
-                        'filename' => 'file.png',
+                        'contents' => Utils::tryFopen($mediaMessage->getMediaPath(), 'r'),
+                        'filename' => basename($mediaMessage->getMediaPath()),
                         'headers' => [
                             'Content-Type' => '<Content-type header>',
                         ],
