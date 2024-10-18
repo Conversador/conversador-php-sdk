@@ -1,7 +1,7 @@
 {
     "name": "conversador/conversador-php-sdk",
     "description": "Pacote para fácil instalação e utilização da API do Conversador para envio de mensagens.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "license": "MIT",
     "autoload": {
